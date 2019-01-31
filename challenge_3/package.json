@@ -1,0 +1,23 @@
+{
+  "name": "challenge_3",
+  "version": "1.0.0",
+  "description": "\"Shopping Cart Checkout\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "babel": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-watch": "^2.0.8",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4"
+  }
+}

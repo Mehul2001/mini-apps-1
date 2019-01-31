@@ -1,0 +1,5 @@
+CREATE DATABASE db;
+
+CREATE TABLE documents(
+    name CHAR(32) CHARACTER SET utf8 
+);
