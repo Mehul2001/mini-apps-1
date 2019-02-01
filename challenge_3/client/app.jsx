@@ -31,6 +31,13 @@ class App extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         if (this.state.count === 4) {
+            axios.post('/', this.state)
+                .then(function (response) {
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                })
             this.setState({
                 count: 0,
                 name: '',
